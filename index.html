@@ -288,7 +288,7 @@ let audioCtx, isPlaying = false, audio;
 
 playBtn.addEventListener('click', async () => {
   if (!audio) {
-    audio = new Audio('jass-song.MP3');    audio.loop = true;
+    audio = new Audio('jass-song.mp3');    audio.loop = true;
     audio.addEventListener('error', () => {
       songNote.style.display = 'block';
     });
